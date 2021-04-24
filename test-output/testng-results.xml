@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18883" started-at="2021-04-25T00:44:45 IST" finished-at="2021-04-25T00:45:03 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18883" started-at="2021-04-25T00:44:45 IST" finished-at="2021-04-25T00:45:03 IST">
+      <class name="tests.MortageCalculatorTest">
+        <test-method status="PASS" signature="SetUP()[pri:0, instance:tests.MortageCalculatorTest@37d31475]" name="SetUP" is-config="true" duration-ms="9536" started-at="2021-04-25T00:44:45 IST" finished-at="2021-04-25T00:44:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUP -->
+        <test-method status="PASS" signature="ValidateMortageCalculator(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.MortageCalculatorTest@37d31475]" name="ValidateMortageCalculator" duration-ms="8308" started-at="2021-04-25T00:44:54 IST" data-provider="mortageCustomerData" finished-at="2021-04-25T00:45:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMortageCalculator -->
+        <test-method status="PASS" signature="CleanUP()[pri:0, instance:tests.MortageCalculatorTest@37d31475]" name="CleanUP" is-config="true" duration-ms="957" started-at="2021-04-25T00:45:02 IST" finished-at="2021-04-25T00:45:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanUP -->
+      </class> <!-- tests.MortageCalculatorTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

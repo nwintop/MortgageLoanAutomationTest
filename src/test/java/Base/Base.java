@@ -9,18 +9,21 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utils.ExtentManager;
 
 public class Base {
 
 	public static WebDriver driver;
 	public static Properties prop;
-
+	
+	
 	public Base() {
 		try {
 			prop = new Properties();
-			System.out.println(System.getProperty("user.dir"));
 			FileInputStream ip = new FileInputStream(
 					System.getProperty("user.dir") + "/src/test/java/config/url.properties");
 			prop.load(ip);

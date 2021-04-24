@@ -145,6 +145,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Base.MyListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;tests.MortageCalculatorTest&quot;/&gt;
@@ -191,7 +194,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ValidateMortageCalculator')
 data.setCell(0, 2, 'tests.MortageCalculatorTest')
-data.setCell(0, 3, 8308);
+data.setCell(0, 3, 8456);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -229,11 +232,11 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">ValidateMortageCalculator(200000, 30, 5)</span>
-                <span class="method-start">9568 ms</span>
+                <span class="method-start">14664 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">CleanUP</span>
-                <span class="method-start">17896 ms</span>
+                <span class="method-start">23130 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

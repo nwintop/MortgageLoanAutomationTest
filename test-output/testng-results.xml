@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18883" started-at="2021-04-25T00:44:45 IST" finished-at="2021-04-25T00:45:03 IST">
+  <suite name="Suite" duration-ms="24139" started-at="2021-04-25T02:51:48 IST" finished-at="2021-04-25T02:52:12 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18883" started-at="2021-04-25T00:44:45 IST" finished-at="2021-04-25T00:45:03 IST">
+    <test name="Test" duration-ms="24139" started-at="2021-04-25T02:51:48 IST" finished-at="2021-04-25T02:52:12 IST">
       <class name="tests.MortageCalculatorTest">
-        <test-method status="PASS" signature="SetUP()[pri:0, instance:tests.MortageCalculatorTest@37d31475]" name="SetUP" is-config="true" duration-ms="9536" started-at="2021-04-25T00:44:45 IST" finished-at="2021-04-25T00:44:54 IST">
+        <test-method status="PASS" signature="SetUP()[pri:0, instance:tests.MortageCalculatorTest@27808f31]" name="SetUP" is-config="true" duration-ms="14623" started-at="2021-04-25T02:51:48 IST" finished-at="2021-04-25T02:52:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUP -->
-        <test-method status="PASS" signature="ValidateMortageCalculator(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.MortageCalculatorTest@37d31475]" name="ValidateMortageCalculator" duration-ms="8308" started-at="2021-04-25T00:44:54 IST" data-provider="mortageCustomerData" finished-at="2021-04-25T00:45:02 IST">
+        <test-method status="PASS" signature="ValidateMortageCalculator(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.MortageCalculatorTest@27808f31]" name="ValidateMortageCalculator" duration-ms="8456" started-at="2021-04-25T02:52:03 IST" data-provider="mortageCustomerData" finished-at="2021-04-25T02:52:11 IST">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateMortageCalculator -->
-        <test-method status="PASS" signature="CleanUP()[pri:0, instance:tests.MortageCalculatorTest@37d31475]" name="CleanUP" is-config="true" duration-ms="957" started-at="2021-04-25T00:45:02 IST" finished-at="2021-04-25T00:45:03 IST">
+        <test-method status="PASS" signature="CleanUP()[pri:0, instance:tests.MortageCalculatorTest@27808f31]" name="CleanUP" is-config="true" duration-ms="970" started-at="2021-04-25T02:52:11 IST" finished-at="2021-04-25T02:52:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CleanUP -->

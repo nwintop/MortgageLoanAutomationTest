@@ -28,6 +28,7 @@ public class MortageCalculatorTest extends Base {
 	public void SetUP() {
 		initialization();
 
+
 	}
 
 	@Test(dataProvider = "mortageCustomerData", dataProviderClass = TestData.class)
